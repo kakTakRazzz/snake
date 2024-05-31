@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    margin: 0;
+}
+
+#game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#gameCanvas {
+    border: 1px solid white;
+    background-color: black;
+}
+
+#score, #message {
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
